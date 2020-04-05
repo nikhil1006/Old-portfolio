@@ -27,5 +27,8 @@
   },
   "devDependencies": {
     "cross-env": "^5.2.0"
-  }
+  },
+    "scripts": {
+      "deploy": "gatsby build && gh-pages -d public -b master"
+    }
 }
